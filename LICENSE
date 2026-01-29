@@ -1,0 +1,31 @@
+Business Source License 1.1
+
+Parameters
+
+Licensor:           PeakOS Foundation / Vegar Berentsen
+Licensed Work:      PeakDB (The Distributed Neural Data Router)
+Additional Use Grant: 
+                    You may make production use of the Licensed Work only if:
+                    (a) your use is non-commercial, or
+                    (b) your annual gross revenue is less than $5,000,000 (USD) or its equivalent in another currency.
+                    
+                    Use for development, testing, and internal demonstration purposes is always permitted.
+
+Change Date:        January 22, 2029
+Change License:     Apache License, Version 2.0
+
+-------------------------------------------------------------------------------------------
+
+Terms of the Business Source License 1.1
+
+1. The Licensor hereby grants you the right to copy, modify, create derivative works, redistribute, and make non-production use of the Licensed Work.
+
+2. You may make production use of the Licensed Work only as permitted by the Additional Use Grant above.
+
+3. Effective on the Change Date, or the fourth anniversary of the first public release of a specific version of the Licensed Work (whichever is earlier), the Licensor hereby grants you rights under the terms of the Change License, and the limitations for production use in this License will no longer apply.
+
+4. If you make a production use of the Licensed Work, you must comply with the terms and conditions of this License and the Change License.
+
+5. You must include a copy of this License in any copy or derivative work of the Licensed Work that you distribute.
+
+6. THE LICENSED WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE LICENSED WORK OR THE USE OR OTHER DEALINGS IN THE LICENSED WORK.
