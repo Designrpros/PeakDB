@@ -1,6 +1,6 @@
-use serde::{Deserialize, Serialize};
 use anyhow::Result;
 use async_trait::async_trait;
+use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct PeakRecord {
@@ -19,12 +19,12 @@ pub trait DataRouter {
 
 pub struct PeakDBRouter {
     // We will add providers (Postgres, Local, Memory) here
-    name: String,
+    _name: String,
 }
 
 impl PeakDBRouter {
     pub fn new(name: impl Into<String>) -> Self {
-        Self { name: name.into() }
+        Self { _name: name.into() }
     }
 }
 
@@ -37,7 +37,11 @@ impl DataRouter for PeakDBRouter {
     }
 
     async fn find(&self, collection: &str, query: serde_json::Value) -> Result<Vec<PeakRecord>> {
-        log::info!("Routing query for collection: {} with {:?}", collection, query);
+        log::info!(
+            "Routing query for collection: {} with {:?}",
+            collection,
+            query
+        );
         Ok(vec![])
     }
 
